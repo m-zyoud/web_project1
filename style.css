@@ -1,0 +1,136 @@
+
+* {
+    
+   
+    font-family: "Arial", sans-serif;
+}
+
+
+:root {
+    --color-primary: #00a6a6;
+    --color-secondary: #333;
+    --color-background: #fff;
+    --color-text: #555;
+    --color-border: #eee;
+    --color-card: #fff;
+    --color-header: #fff;
+    --color-footer: #EAEAEA;
+    --color-footer-text: #333;
+    --shadow-default: rgba(0, 0, 0, 0.1);
+    --shadow-hover: rgba(0, 123, 255, 0.3);
+    --section-alt: #f9f9f9;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 3px solid #009688;
+}
+
+nav img {
+    width: 100px;
+    height: 60px;
+    padding-left: 100px;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+}
+
+.link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* End of navbar */
+
+.welcome-sec {
+    padding: 80px 0;
+    position: relative;
+    background-image: url("image/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.welcome-sec .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.welcome-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.welcome-content h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    padding-left: 60px;
+}
+
+.welcome-content h1 span {
+    color: var(--color-primary);
+   
+}
+
+.welcome-content p {
+    color: var(--color-secondary);
+    padding-left: 60px;
+}
+.welcome-content a {
+    color: var(--color-card);
+    margin: 50px;
+    
+}
+
+.welcome-visual {
+    flex: 1;
+    text-align: right;
+}
+
+.welcome-visual img {
+    max-width: 100%;
+    
+}
+.button {
+    display: inline-block;
+    background-color: #009688; 
+    color: white;
+    padding: 10px 22px;  
+    border-radius: 3px;      
+    font-weight: 500;
+    text-decoration: none;   
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #007F7F;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* end of welcome-sec */
+
+
+

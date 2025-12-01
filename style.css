@@ -132,7 +132,55 @@ nav img {
 
 /* end of welcome-sec */
 
+.key-features {
+    padding: 50px ;
+}
 
+.key-features .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+
+.feature-card {
+    background: #fff;
+    border: 2px solid #7ad3d3;
+    border-radius: 6px;
+    padding: 15px 10px;
+    margin: 15px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 150, 136, 0.25); 
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 150, 136, 0.35);
+}
+
+.feature-symbol {
+    margin-bottom: 10px;
+}
+
+.feature-symbol i {
+    font-size: 34px;
+    color: #009688;
+}
+
+.feature-card h3 {
+    margin: 8px 0 6px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* end of feature */
 
 
 

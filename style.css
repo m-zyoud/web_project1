@@ -1,4 +1,11 @@
 
+* {
+    
+   
+    font-family: "Arial", sans-serif;
+}
+
+
 :root {
     --color-primary: #00a6a6;
     --color-secondary: #333;
@@ -93,6 +100,7 @@ nav img {
 }
 .welcome-content a {
     color: var(--color-card);
+    margin: 50px;
     
 }
 
@@ -121,6 +129,8 @@ nav img {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
+/* end of welcome-sec */
 
 
 

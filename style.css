@@ -182,7 +182,30 @@ nav img {
 
 /* end of feature */
 
+.about-us .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 
+.about-visual {
+    flex: 1;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h2 {
+    text-align: left;
+}
+
+.about-content h2:after {
+    left: 0;
+    transform: none;
+}
+
+/* end of about us-sec*/
 
 
 

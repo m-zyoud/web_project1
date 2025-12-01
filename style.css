@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 3px solid #009688;
+}
+
+nav img {
+    width: 100px;
+    height: 60px;
+    padding-left: 100px;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+}
+
+.link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}

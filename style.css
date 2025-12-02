@@ -107,10 +107,12 @@ nav img {
 .welcome-visual {
     flex: 1;
     text-align: right;
+    
 }
 
 .welcome-visual img {
     max-width: 100%;
+    
     
 }
 .button {
@@ -190,17 +192,21 @@ nav img {
 
 .about-visual {
     flex: 1;
+    
+    
 }
+
 
 .about-content {
     flex: 1;
 }
 
-.about-content h2 {
+.about-content h1 {
     text-align: left;
+     font-size: 32px;
 }
 
-.about-content h2:after {
+.about-content h1:after {
     left: 0;
     transform: none;
 }

@@ -195,18 +195,21 @@ nav img {
     
     
 }
-
+section img{
+    width: 80%;
+}
 
 .about-content {
     flex: 1;
 }
 
-.about-content h1 {
+.about-content h2 {
     text-align: left;
      font-size: 32px;
 }
 
-.about-content h1:after {
+
+.about-content h2:after {
     left: 0;
     transform: none;
 }

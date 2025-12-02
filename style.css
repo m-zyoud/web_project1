@@ -191,16 +191,20 @@ nav img {
 }
 
 .about-visual {
-    flex: 1;
-    
+    flex: 1;    
     
 }
 section img{
     width: 80%;
+    padding-left: 10%;
 }
 
 .about-content {
     flex: 1;
+}
+
+.about-content p {
+   padding-right: 10%;
 }
 
 .about-content h2 {

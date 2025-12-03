@@ -1,7 +1,6 @@
-
 * {
-    
-   
+
+
     font-family: "Arial", sans-serif;
 }
 
@@ -92,51 +91,53 @@ nav img {
 
 .welcome-content h1 span {
     color: var(--color-primary);
-   
+
 }
 
 .welcome-content p {
     color: var(--color-secondary);
     padding-left: 60px;
 }
+
 .welcome-content a {
     color: var(--color-card);
     margin: 50px;
-    
+
 }
 
 .welcome-visual {
     flex: 1;
     text-align: right;
-    
+
 }
 
 .welcome-visual img {
     max-width: 100%;
-    
-    
+
+
 }
+
 .button {
     display: inline-block;
-    background-color: #009688; 
+    background-color: #009688;
     color: white;
-    padding: 10px 22px;  
-    border-radius: 3px;      
+    padding: 10px 22px;
+    border-radius: 3px;
     font-weight: 500;
-    text-decoration: none;   
+    text-decoration: none;
     transition: 0.3s ease;
 }
 
 .button:hover {
     background-color: #007F7F;
     transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* end of welcome-sec */
 
 .key-features {
-    padding: 50px ;
+    padding: 50px;
 }
 
 .key-features .wrapper {
@@ -153,7 +154,7 @@ nav img {
     margin: 15px;
     text-align: center;
     transition: 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 150, 136, 0.25); 
+    box-shadow: 0 4px 8px rgba(0, 150, 136, 0.25);
 }
 
 .feature-card:hover {
@@ -192,10 +193,11 @@ nav img {
 }
 
 .about-visual {
-    flex: 1;    
-    
+    flex: 1;
+
 }
-section img{
+
+section img {
     width: 80%;
     padding-left: 10%;
 }
@@ -205,12 +207,12 @@ section img{
 }
 
 .about-content p {
-   padding-right: 10%;
+    padding-right: 10%;
 }
 
 .about-content h2 {
     text-align: left;
-     font-size: 32px;
+    font-size: 32px;
 }
 
 
@@ -221,13 +223,17 @@ section img{
 
 /* end of about us-sec*/
 
- .featured-books, .new_arrivals {
+.featured-books,
+.new_arrivals {
     position: relative;
     padding: 2rem 0;
 }
 
-.wrapper h2{
-align-items: center;
+.featured-title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3%;
+    
 }
 
 .new_arrivals {
@@ -246,7 +252,7 @@ align-items: center;
     scroll-behavior: smooth;
     padding: 20px;
     gap: 25px;
-    
+
 }
 
 
@@ -271,7 +277,7 @@ align-items: center;
     overflow: hidden;
     box-shadow: 0 5px 15px var(--shadow-default);
     height: 100%;
-    
+
 }
 
 .card_inner:hover {
@@ -351,3 +357,6 @@ align-items: center;
     color: white;
     transform: translateY(-2px);
 }
+
+/* end of featured book */
+

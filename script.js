@@ -1,3 +1,4 @@
+
 const themeBtn = document.getElementById("themeBtn");
 
 themeBtn.addEventListener("click", () => {
@@ -11,4 +12,3 @@ themeBtn.addEventListener("click", () => {
         themeBtn.classList.add("fa-moon");
     }
 });
-

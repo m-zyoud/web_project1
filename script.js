@@ -11,4 +11,3 @@ themeBtn.addEventListener("click", () => {
         themeBtn.classList.add("fa-moon");
     }
 });
-

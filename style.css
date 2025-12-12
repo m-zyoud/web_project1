@@ -767,7 +767,7 @@ nav ul li a {
    position: relative;
    overflow: hidden;
    padding: 10rem 0;
-   background-image: url("banner.jpg");
+   background-image: url(image/banner.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    text-align: center;
@@ -776,6 +776,8 @@ nav ul li a {
    justify-content: auto;
    min-height: 100%;
 }
+
+
 
 .promo-banner .wrapper{
     position: relative;

@@ -725,6 +725,16 @@
             </div>
         </footer>
 
+        <!--الي بشغل (Hamburger menu)-->
+        <script>
+            const toggleBtn = document.querySelector('.mobile-nav-toggle');
+            const nav = document.querySelector('nav');
+        
+            toggleBtn.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+        </script>
+
 
 
   <script src="script.js"></script>
